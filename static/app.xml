@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Watch a Movie Together App">
+    <Require feature="rpc"/>
+    <Require feature="views"/>
+  </ModulePrefs>
+  <Content type="html">
+  <![CDATA[
+<!DOCTYPE html>
+<script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.0"></script>
+
+<link href="//watchamovieinahangout.appspot.com/static/video-js.css" rel="stylesheet">
+<script src="//watchamovieinahangout.appspot.com/static/video.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//watchamovieinahangout.appspot.com/static/app.js"></script>
+<script src="//watchamovieinahangout.appspot.com/static/controller.js"></script>
+
+<div style="float: left; padding: 0px 20px;>
+  <dl>
+  <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="700" height="460"
+      poster="//watchamovieinahangout.appspot.com/static/welcome.jpg"
+      data-setup="{}">
+    <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+  </video>
+    <input type=button value="Set Video URL" id="urlButton" onClick="urlButtonClick()"/>
+      <p>This has only been tested with Google Chrome and is still in development.</p>
+  </dl>
+</div>
+<div style="clear: both;"></div>
+ ]]>
+ </Content>
+</Module>
