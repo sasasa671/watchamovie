@@ -20,7 +20,7 @@
     <h1> <img src="//watchamovietogether-hrd.appspot.com/static/hangouts-logo.png" 
     alt="Google+ Hangouts Logo"> Watch a Movie Together (BETA)!</h1>
     
-  <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="700" height="430"
+  <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="700" height="420"
       poster="//watchamovieinahangout.appspot.com/static/welcome.jpg"
       data-setup="{}">
     <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
