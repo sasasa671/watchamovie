@@ -7,7 +7,8 @@
   <Content type="html">
   <![CDATA[
 <!DOCTYPE html>
-<script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.0"></script>
+<script src="//hangoutsapi.talkgadget.google.com/talkgadget/apps/gadgets/js/rpc.js"></script>
+<script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script>
 
 <link href="//watchamovieinahangout.appspot.com/static/video-js.css" rel="stylesheet">
 <script src="//watchamovieinahangout.appspot.com/static/video.js"></script>
