@@ -17,8 +17,8 @@
 
 <div style="float: left; padding: 0px 20px;>
   <dl>
-    <h1> <img src="//watchamovietogether-hrd.appspot.com/static/hangouts-logo.png" 
-    alt="Google+ Hangouts Logo"> Watch a Movie Together (BETA)!</h1>
+    <h1> <img src="//watchamovieinahangout.appspot.com/static/hangouts-logo.png" 
+    alt="Google+ Hangouts Logo"></h1>
     
   <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" width="700" height="420"
       poster="//watchamovieinahangout.appspot.com/static/welcome.jpg"
